@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Lavender Bliss",
+    "price": 3.99,
+    "description": "A soothing soap with the calming scent of lavender.",
+    "img":"./images/3.jpg",
+    "category": "Natural Handmade Soap"
+  },
+  {
+    "id": 2,
+    "name": "Rose Petal",
+    "price": 4.49,
+    "description": "A luxurious soap infused with the essence of fresh roses.",
+    "img":"./images/4.jpg",
+    "category": "Natural Handmade Soap"
+  },
+  {
+    "id": 3,
+    "name": "Citrus Zest",
+    "price": 3.75,
+    "description": "An invigorating soap with a refreshing citrus fragrance.",
+    "img":"./images/5.jpg",
+    "category": "Summer Scented Soap"
+  },
+  {
+    "id": 4,
+    "name": "Ocean Breeze",
+    "price": 4.25,
+    "description": "A revitalizing soap with a crisp and clean ocean scent.",
+    "img":"./images/6.jpg",
+    "category": "Herbal Handmade Soap"
+  },
+  {
+    "id": 5,
+    "name": "Vanilla Dream",
+    "price": 4.99,
+    "description": "A sweet and creamy soap with a delightful vanilla aroma.",
+    "img":"./images/7.jpg",
+    "category": "Summer Scented Soap"
+  },
+  {
+    "id": 6,
+    "name": "Mint Fresh",
+    "price": 3.85,
+    "description": "A cooling soap with a refreshing minty fragrance.",
+    "img":"./images/8.jpg",
+    "category": "Natural Handmade Soap"
+  },
+  {
+    "id": 7,
+    "name": "Honey Glow",
+    "price": 5.25,
+    "description": "A moisturizing soap enriched with natural honey.",
+    "img":"./images/9.jpg",
+    "category": "Summer Scented Soap"
+  },
+  {
+    "id": 8,
+    "name": "Charcoal Detox",
+    "price": 4.75,
+    "description": "A purifying soap with activated charcoal for deep cleansing.",
+    "img":"./images/10.jpg",
+    "category": "Natural Handmade Soap"
+  },
+  {
+    "id": 9,
+    "name": "Aloe Vera Calm",
+    "price": 4.50,
+    "description": "A gentle soap infused with aloe vera for soothing hydration.",
+    "img":"./images/11.jpg",
+    "category": "Summer Scented Soap"
+  },
+  {
+    "id": 10,
+    "name": "Berry Bliss",
+    "price": 4.20,
+    "description": "A fruity soap with the sweet scent of mixed berries.",
+    "img":"./images/12.jpg",
+    "category": "colorful Handmade Soap"
+  },
+  {
+    "id": 11,
+    "name": "Coconut Cream",
+    "price": 5.00,
+    "description": "A creamy soap with the tropical scent of fresh coconuts.",
+    "img":"./images/13.jpg",
+    "category": "Natural Handmade Soap"
+  },
+  {
+    "id": 12,
+    "name": "Eucalyptus Energize",
+    "price": 4.95,
+    "description": "A refreshing soap infused with eucalyptus for a spa-like experience.",
+    "img":"./images/14.jpg",
+    "category": "Natural Handmade Soap"
+  },
+  {
+    "id": 13,
+    "name": "Peach Blossom",
+    "price": 4.30,
+    "description": "A delightful soap with the sweet fragrance of peach blossoms.",
+    "img":"./images/3.jpg",
+    "category": "Herbal Handmade Soap"
+  },
+  {
+    "id": 14,
+    "name": "Sandalwood Serenity",
+    "price": 5.15,
+    "description": "A luxurious soap with the warm, woody aroma of sandalwood.",
+    "img":"./images/4.jpg",
+    "category": "colorful Handmade Soap"
+  },
+  {
+    "id": 15,
+    "name": "Ginger Spice",
+    "price": 4.80,
+    "description": "An invigorating soap with a spicy ginger fragrance.",
+    "img":"./images/5.jpg",
+    "category": "colorful Handmade Soap"
+  },
+  {
+    "id": 16,
+    "name": "Lemongrass Love",
+    "price": 4.60,
+    "description": "A vibrant soap with the refreshing scent of lemongrass.",
+    "img":"./images/6.jpg",
+    "category": "Herbal Handmade Soap"
+  },
+  {
+    "id": 17,
+    "name": "Pine Forest",
+    "price": 4.70,
+    "description": "A crisp soap with the earthy scent of pine trees.",
+    "img":"./images/7.jpg",
+    "category": "colorful Handmade Soap"
+  },
+  {
+    "id": 18,
+    "name": "Chocolate Indulgence",
+    "price": 5.50,
+    "description": "A decadent soap with the rich aroma of chocolate.",
+    "img":"./images/8.jpg",
+    "category": "Herbal Handmade Soap"
+  },
+  {
+    "id": 19,
+    "name": "Jasmine Delight",
+    "price": 5.10,
+    "description": "A fragrant soap with the enchanting scent of jasmine flowers.",
+    "img":"./images/9.jpg",
+    "category": "colorful Handmade Soap"
+  },
+  {
+    "id": 20,
+    "name": "Tea Tree Tonic",
+    "price": 5.20,
+    "description": "A cleansing soap with the antibacterial properties of tea tree oil.",
+    "img":"./images/10.jpg",
+    "category": "Herbal Handmade Soap"
+  }
+]

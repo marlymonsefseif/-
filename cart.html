@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart</title>
+  <link rel="stylesheet" href="./css/cart.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div id="navbar"></div>
+  <div id="title">
+    <img src="images/2.jpg" width="100%" alt="soap" />
+    <div class="center">
+      <span style="font-style: italic; font-size: 70px">Cart</span>
+      <span><a href="#">Home > </a>Cart</span>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div id="content-cart">
+    <div id="headers">
+      <h3>Product</h3>
+      <h3>Quantity</h3>
+      <h3>Subtotal</h3>
+    </div>
+
+  </div>
+  <div id="contener">
+    <hr>
+    <div>
+      <h3>total price &nbsp;&nbsp;&nbsp;&nbsp; = &nbsp;&nbsp;&nbsp;&nbsp;</h3>
+      <h3 id="totalPrice"></h3>
+    </div>
+
+  </div>
+  <button class="buy">BUY</button>
+  <div id="footer"></div>
+  <script src="./js/cartCountjs.js"></script>
+  <script type="module" src="./js/cart.js"></script>
+</body>
+
+</html>

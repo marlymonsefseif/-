@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+div#title {
+    position: relative;
+}
+
+div.center {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+span {
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+span a {
+    color: black;
+    text-decoration: none;
+}
+
+span a:hover {
+    color: #EDA3A6;
+}
+
+.container {
+    display: flex;
+}
+
+.container .logo {
+    margin: 6em;
+}
+
+.container .logo .logo-logo {
+    font-size: 40px;
+    color: #EDA3A6;
+    border: 2px solid rgb(157, 156, 156);
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container .logo p {
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+}
+
+.container .logo span {
+    color: gray;
+    font-size: medium;
+}
+
+.about-us {
+    position: relative;
+}
+
+.about-us img {
+    margin-left: 8em;
+}
+
+.about-us .content-about {
+    position: absolute;
+    top: 26%;
+    left: 47%;
+    background-color: #f7f7f7;
+    width: 50%;
+}
+
+.about-us .content-about span {
+    color: gray;
+    text-align: left;
+    margin: 1em 2em;
+    font-size: 22px;
+}
+
+.about-us .content-about p {
+    font-style: italic;
+    margin-left: 1.5em;
+    font-size: xx-large;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    margin-top: 8em;
+    margin-left: 24em;
+}
+
+.slideshow-container h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.mySlides {
+    display: none;
+    padding: 25px;
+    text-align: center;
+}
+
+.slideshow-container .mySlides q {
+    font-size: x-large;
+    
+}
+
+.slideshow-container .mySlides .author {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.slideshow-container .button {
+    text-align: center;
+    bottom: 20px;
+}
+
+.button button {
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+.button button:hover {
+    background: #EDA3A6;
+    color: white;
+}

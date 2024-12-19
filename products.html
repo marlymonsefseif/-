@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./css/products.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="title">
+      <img src="images/2.jpg" width="100%" alt="soap" />
+      <div class="center">
+        <span
+          style="
+            font-style: italic;
+            font-size: 70px;
+            text-align: center;
+          "
+          >Products</span
+        >
+        <span><a href="home.html">Home > </a>Products</span>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="buttons">
+      <button id="all" onclick="typeProduct('all')">All Products</button>
+      <button id="natural" onclick="typeProduct('Natural Handmade Soap')">Natural Soap</button>
+      <button id="summer" onclick="typeProduct('Summer Scented Soap')">Summer Scented Soap</button>
+      <button id="herbal" onclick="typeProduct('Herbal Handmade Soap')">Herbal Soap</button>
+      <button id="colorful" onclick="typeProduct('colorful Handmade Soap')">colorful Soap</button>
+    </div>
+    <div id="container">
+      <div id="products"></div>
+    </div>
+    <div id="footer"></div>
+    <script type="module" src="./js/products.js"></script>
+  </body>
+</html>

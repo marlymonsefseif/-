@@ -1,0 +1,148 @@
+div#title {
+    position: relative;
+}
+
+div.center {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+span {
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+span a {
+    color: black;
+    text-decoration: none;
+}
+
+span a:hover {
+    color: #EDA3A6;
+}
+
+#content-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+#headers {
+    display: flex;
+}
+
+#headers h3 {
+    width: 30%;
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product #detelies {
+    box-sizing: border-box;
+    width: 30%;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.product #detelies img {
+    border-radius: 10%;
+}
+
+.product #detelies span {
+    color: #EDA3A6;
+}
+
+.product #detelies #p {
+    display: flex;
+}
+
+#detelies h3 {
+    width: 30px;
+}
+
+.product #count {
+    width: 30%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px 75px;
+}
+
+.product #count .countOfProduct {
+    font-size: x-large;
+    margin: 1% 15%;
+}
+
+.product #count button {
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+}
+
+.product #count button:hover {
+    color: #EDA3A6;
+}
+
+.product #subtotal {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.product #subtotal span {
+    color: #EDA3A6;
+    text-align: left;
+}
+
+.product #close {
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+#contener {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 100px;
+}
+
+#contener div {
+    padding: 30px;
+}
+
+#contener h3 {
+    color: #EDA3A6;
+    font-size: xx-large;
+    display: inline;
+}
+
+.buy {
+    border-radius: 10%;
+    background-color: black;
+    display: block;
+    margin: 0.75em auto;
+    font-size: large;
+    padding: 10px;
+    color: white;
+}
+
+.buy:hover {
+    border: 1px solid black;
+    background-color: #EDA3A6;
+    color: white;
+    font-weight: 700;
+}
